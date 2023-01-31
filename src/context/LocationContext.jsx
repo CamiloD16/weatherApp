@@ -10,7 +10,7 @@ export const AuthProvider = ({children}) => {
   const [search, setSearch] = useState("miami")
   const [apiData, setApiData] = useState([]);
 
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&lang=en&appid=f62b4de10d24119e0ef2a24f0cea1158`
+  const url = `//api.openweathermap.org/data/2.5/weather?q=${search}&lang=en&appid=f62b4de10d24119e0ef2a24f0cea1158`
 
   useEffect(() => {
     const getData = async () => {
