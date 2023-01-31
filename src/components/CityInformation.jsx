@@ -16,7 +16,7 @@ const CityInformation = () => {
             <h3>{Date().slice(0,15)}</h3>
           </div>
           <div className='cityIconAndDescription'>
-            <img src={`http://openweathermap.org/img/wn/${apiData.weather[0].icon}.png`} alt="" />
+            <img src={`//openweathermap.org/img/wn/${apiData.weather[0].icon}.png`} alt="" />
             <p>{apiData.weather[0].main}</p>
           </div>
         </div>
