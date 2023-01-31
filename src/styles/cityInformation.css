@@ -1,0 +1,67 @@
+.cityInformation {
+  width: 100%;
+  align-items: flex-end;
+  display: flex;
+}
+
+.cityInformation .cityWeather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 70px 90px;
+}
+
+.cityInformation .cityWeather h1 {
+  font-size: 6rem;
+}
+
+.cityInformation .cityWeather .cityNameAndDate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cityInformation .cityWeather .cityNameAndDate h2 {
+  font-size: 3rem;
+}
+
+.cityInformation .cityWeather .cityNameAndDate h3 {
+  font-size: 1.5rem;
+}
+
+.cityInformation .cityWeather .cityIconAndDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cityInformation .cityWeather .cityIconAndDescription img {
+  width: 60px;
+}
+
+@media screen and (max-width: 930px) {
+  .cityInformation {
+    justify-content: center;
+  }
+
+  .cityInformation .cityWeather {
+    flex-direction: column;
+  }
+
+  .cityInformation .cityWeather .cityNameAndDate {
+    align-items: center
+  }
+
+  .cityInformation .cityWeather h1 {
+    font-size: 4rem;
+  }
+
+  .cityInformation .cityWeather .cityNameAndDate h2 {
+    font-size: 2rem;
+  }
+
+  .cityInformation .cityWeather .cityNameAndDate h3 {
+    font-size: 1rem;
+  }
+}

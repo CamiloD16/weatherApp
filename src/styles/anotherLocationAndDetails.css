@@ -1,0 +1,69 @@
+/* ANOTHER LOCATIONS AND DETAILS */
+
+.anotherLocationAndDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ANOTHER LOCATION */
+
+.anotherLocation {
+  padding: 30px 50px;
+  border-bottom: 2px solid #ccc;
+}
+
+.anotherLocation input {
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 10px 0;
+  margin-bottom: 40px;
+  outline: none;
+  background-color: transparent;
+}
+
+.anotherLocation h4 {
+  margin-bottom: 20px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+/* WEATHER DETAILS */
+
+.weatherDetails {
+  padding: 30px 50px;
+}
+
+.weatherDetails h3:first-child {
+  margin-bottom: 40px;
+}
+
+.weatherDetails .detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.weatherDetails .detail h4:first-child {
+  opacity: 0.6;
+}
+
+
+@media screen and (max-width: 930px){
+  .anotherLocation .cities{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .anotherLocation .cities{
+    flex-direction: column;
+    gap: 0;
+  }
+}
